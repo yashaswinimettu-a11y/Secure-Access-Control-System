@@ -10,10 +10,6 @@
 #include "i2c_eeprom.h"
 #include "r305.h"
 #include "l293d.h"
-
-//#define NEW_ROM      // Enable for fresh EEPROM initialization
-//#define OLD_ROM        // Enable for reading existing EEPROM data
-
 /*---------------------------------------------------------
  * Global Variables
  *---------------------------------------------------------*/
@@ -79,91 +75,6 @@ void eint2_isr(void) __irq
         /* Clear interrupt in VIC */
         VICVectAddr = 0;
 }
-
-
-/*---------------------------------------------------------
- * Admin Details Storage using EEPROM
- *---------------------------------------------------------*/
-
-/*
-ion.
- *-----------------------------------------------------------
-*/
-/*void set_admin_detail(void)
-{
-        u8 id;
-        u8 pswd1[5], pswd2[5];
-
-        while(1)
-        {
-                // Clear LCD and ask for Admin ID 
-                cmd_lcd(LCD_CLR);
-
-                cmd_lcd(GOTO_LINE1_POS_0);
-                str_lcd("enter admin ID:");
-
-                cmd_lcd(GOTO_LINE2_POS_0);
-
-                // Read numeric ID from keypad
-                id = read_num();
-
-                //Ask for password 
-                cmd_lcd(LCD_CLR);
-                str_lcd("enter password:");
-
-                // Read password from keypad
-                password_kpm(pswd1);
-
-                // Confirm password 
-                cmd_lcd(LCD_CLR);
-                str_lcd("enter again:");
-
-                password_kpm(pswd2);
-
-                // Compare both passwords 
-                if(strcmp(pswd1, pswd2) != 0)
-                {
-                        // Password mismatch
-                        cmd_lcd(LCD_CLR);
-
-                        str_lcd("wrong entry");
-
-                        cmd_lcd(0xC0);
-                        str_lcd("enter again");
-
-                        delay_ms(500);
-                }
-                else
-                {
-                        // Store Admin ID into EEPROM 
-                        i2c_eeprom_write_byte(0x50, 0x0001, id);
-
-                        // Store Password into EEPROM 
-                        i2c_eeprom_write_page(0x50,
-                                              0x0002,
-                                              pswd1,
-                                              5);
-
-                        // Display success message 
-                        cmd_lcd(LCD_CLR);
-
-                        str_lcd("..admin detail..");
-
-                        cmd_lcd(0xC0);
-                        str_lcd("....saved.....");
-
-                        delay_ms(500);
-
-                        // Update global admin ID
-                        admin_id = id;
-
-                        return;
-                }
-        }
-}
-
-#endif
-*/
 
 /*---------------------------------------------------------
  * Function Name : is_id_in_db
