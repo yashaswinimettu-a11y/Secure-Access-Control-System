@@ -34,7 +34,7 @@ int main()
 	   bulid_symbols();
 
        init_l293d();                // Initialize motor driver
-	//   i2c_eeprom_write_byte(0x50,0x0070,ids);
+	
 	   ids=i2c_eeprom_read_byte(0x50,0x0070);
 
        title();                     // Display first project title
