@@ -254,11 +254,11 @@ The following images show the different stages of the authentication and access-
 
 ![Main Menu](Images/image7.jpeg)
 
-## 🎥 Project Demonstration Video
+## 🎥 Project Demonstration
 
-A complete demonstration of the project can be viewed below:
+The complete working demonstration of the Secure Access Control System is available below:
 
-[▶️ Watch the Project Demonstration](YOUR_VIDEO_LINK)
+[▶️ Watch Project Demonstration](Video/project_demonstration.mp4)
 
 ## 🚀 Applications
 
