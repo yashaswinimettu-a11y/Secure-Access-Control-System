@@ -246,9 +246,13 @@ The following images show the different stages of the authentication and access-
 
 ![Fingerprint Verification](Images/image9.jpeg)
 
-### 7. Access Granted
+### 7. Access Granted(Door open)
 
 ![Access Granted](Images/image10.jpeg)
+
+### 8. Door Close
+
+![Main Menu](Images/image7.jpeg)
 
 ## 🚀 Applications
 
