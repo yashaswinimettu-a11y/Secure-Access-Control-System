@@ -254,6 +254,12 @@ The following images show the different stages of the authentication and access-
 
 ![Main Menu](Images/image7.jpeg)
 
+## 🎥 Project Demonstration Video
+
+A complete demonstration of the project can be viewed below:
+
+[▶️ Watch the Project Demonstration](YOUR_VIDEO_LINK)
+
 ## 🚀 Applications
 
 The concepts implemented in this project can be applied to:
