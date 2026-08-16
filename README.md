@@ -219,6 +219,33 @@ Secure-Access-Control-System/
 **Communication:** UART / I²C
 
 ---
+## 📸 Project Demonstration
+
+The following images show the different stages of the authentication and access-control process.
+
+### 1. Main Menu
+
+![Main Menu](Images/main_menu.jpg)
+
+### 2. Enter ID
+
+![Enter ID](Images/enter_id.jpg)
+
+### 3. Password Verification
+
+![Password Verification](Images/password.jpg)
+
+### 4. Fingerprint Verification
+
+![Fingerprint Verification](Images/fingerprint.jpg)
+
+### 5. Access Granted
+
+![Access Granted](Images/access_granted.jpg)
+
+### 6. Access Denied
+
+![Access Denied](Images/access_denied.jpg)
 
 ## 🚀 Applications
 
