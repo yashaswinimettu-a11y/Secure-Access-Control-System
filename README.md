@@ -225,27 +225,23 @@ The following images show the different stages of the authentication and access-
 
 ### 1. Main Menu
 
-![Main Menu](Images/main_menu.jpg)
+![Main Menu](Images/image1.jpeg)
 
 ### 2. Enter ID
 
-![Enter ID](Images/enter_id.jpg)
+![Enter ID](Images/image3.jpeg)
 
 ### 3. Password Verification
 
-![Password Verification](Images/password.jpg)
+![Password Verification](Images/image6.jpeg)
 
 ### 4. Fingerprint Verification
 
-![Fingerprint Verification](Images/fingerprint.jpg)
+![Fingerprint Verification](Images/image9.jpeg)
 
 ### 5. Access Granted
 
-![Access Granted](Images/access_granted.jpg)
-
-### 6. Access Denied
-
-![Access Denied](Images/access_denied.jpg)
+![Access Granted](Images/image5.jpeg)
 
 ## 🚀 Applications
 
