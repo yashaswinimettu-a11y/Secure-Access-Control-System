@@ -172,43 +172,54 @@ This allows previously stored user credentials to be used when the system is pow
 ```text
 Secure-Access-Control-System/
 │
-├── Source_Code/
-│   ├── main.c
-│   ├── lcd.c
-│   ├── lcd.h
-│   ├── kpm.c
-│   ├── kpm.h
-│   ├── i2c.c
-│   ├── i2c.h
-│   ├── i2c_defines.h
-│   ├── i2c_eeprom.c
-│   ├── i2c_eeprom.h
-│   ├── eeprom_main.c
-│   ├── extint_menu.c
-│   ├── extint_menu.h
-│   ├── l293d.c
-│   ├── l293d.h
-│   ├── r305.c
-│   ├── r305.h
-│   ├── uart.c
-│   ├── uart.h
-│   ├── delay.c
-│   ├── delay.h
-│   ├── macros.h
-│   └── types.h
+├── main.c
+├── lcd.c
+├── lcd.h
+├── kpm.c
+├── kpm.h
+├── i2c.c
+├── i2c.h
+├── i2c_defines.h
+├── i2c_eeprom.c
+├── i2c_eeprom.h
+├── eeprom_main.c
+├── extint_menu.c
+├── extint_menu.h
+├── l293d.c
+├── l293d.h
+├── r305.c
+├── r305.h
+├── uart.c
+├── uart.h
+├── delay.c
+├── delay.h
+├── macros.h
+├── types.h
 │
-├── Keil_Project/
-│   ├── major.uvproj
-│   ├── Startup.s
-│   └── major.sct
+├── Startup.s
+├── major.sct
+├── major.uvproj
+├── major.hex
 │
-├── Firmware/
-│   └── major.hex
+├── Images/
+│   └── Project output and LCD screenshots
+│
+├── Video/
+│   └── Project demonstration video
 │
 └── README.md
 ```
 
----
+### 📂 File Description
+
+* **`.c` files** – Embedded C source files implementing the system functionality.
+* **`.h` files** – Header files containing declarations, macros, and data types.
+* **`Startup.s`** – ARM startup/initialization code used by the Keil project.
+* **`major.uvproj`** – Keil µVision project file.
+* **`major.sct`** – Scatter-loading configuration file.
+* **`major.hex`** – Compiled firmware file.
+* **`Images/`** – Project output and LCD display images.
+* **`Video/`** – Project demonstration video.
 
 ## 🛠️ Development Tools
 
