@@ -222,26 +222,33 @@ Secure-Access-Control-System/
 ## 📸 Project Demonstration
 
 The following images show the different stages of the authentication and access-control process.
+### 1. Title
 
-### 1. Main Menu
+![Main Menu](Images/image4.jpeg)
+
+### 2. Main Menu
 
 ![Main Menu](Images/image1.jpeg)
 
-### 2. Enter ID
+### 3. Edit Menu
+
+![Main Menu](Images/image2.jpeg)
+
+### 4. Enter UserID
 
 ![Enter ID](Images/image3.jpeg)
 
-### 3. Password Verification
+### 5. Password Verification
 
 ![Password Verification](Images/image6.jpeg)
 
-### 4. Fingerprint Verification
+### 6. Fingerprint Verification
 
 ![Fingerprint Verification](Images/image9.jpeg)
 
-### 5. Access Granted
+### 7. Access Granted
 
-![Access Granted](Images/image5.jpeg)
+![Access Granted](Images/image10.jpeg)
 
 ## 🚀 Applications
 
