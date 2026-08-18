@@ -141,15 +141,16 @@ The system follows a three-level authentication procedure:
 ## 🧠 Working Principle
 
 1. The system initializes the LPC2148 microcontroller and connected peripherals.
-2. The user enters an ID using the keypad.
-3. The entered ID is compared with the IDs stored in EEPROM.
-4. If the ID is valid, the system requests the corresponding password.
-5. The entered password is verified against the stored password.
-6. If the password is correct, fingerprint authentication is initiated.
-7. The R305 fingerprint module verifies the user's fingerprint.
-8. If all authentication levels are successful, access is granted.
-9. The L293D motor driver controls the DC motor for the access mechanism.
-10. If any authentication step fails, access is denied.
+2. User Enrolls the fingerprint by giving an interuupt.
+3. The user enters an ID using the keypad.
+4. The entered ID is compared with the IDs stored in EEPROM.
+5. If the ID is valid, the system requests the corresponding password.
+6. The entered password is verified against the stored password.
+7. If the password is correct, fingerprint authentication is initiated.
+8. The R305 fingerprint module verifies the user's fingerprint.
+9. If all authentication levels are successful, access is granted.
+10. The L293D motor driver controls the DC motor for the access mechanism.
+11. If any authentication step fails, access is denied.
 
 ---
 
