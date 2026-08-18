@@ -141,7 +141,7 @@ The system follows a three-level authentication procedure:
 ## 🧠 Working Principle
 
 1. The system initializes the LPC2148 microcontroller and connected peripherals.
-2. User Enrolls the fingerprint by giving an interuupt.
+2. User Enrolls the fingerprint by giving an interrupt.
 3. The user enters an ID using the keypad.
 4. The entered ID is compared with the IDs stored in EEPROM.
 5. If the ID is valid, the system requests the corresponding password.
