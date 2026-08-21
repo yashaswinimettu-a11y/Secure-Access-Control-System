@@ -23,45 +23,12 @@ The system aims to:
 
 ---
 
-## 🔐 Authentication Process
+## 🔐 Block Diagram
 
 The system follows a three-level authentication procedure:
 
-```text
-             START
-               │
-               ▼
-          Enter User ID
-               │
-               ▼
-        Verify ID in EEPROM
-               │
-        ┌──────┴──────┐
-        │             │
-     Invalid         Valid
-        │             │
-        ▼             ▼
-   Access Denied   Enter Password
-                      │
-                      ▼
-              Verify Password
-                      │
-                ┌─────┴─────┐
-                │           │
-             Invalid       Valid
-                │           │
-                ▼           ▼
-          Access Denied  Fingerprint
-                         Verification
-                              │
-                        ┌─────┴─────┐
-                        │           │
-                     Invalid       Valid
-                        │           │
-                        ▼           ▼
-                  Access Denied  Access
-                                  Granted
-```
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/1a13a93d-cb2c-47d8-88fc-fcab47c9c51c" />
+
 
 ---
 
