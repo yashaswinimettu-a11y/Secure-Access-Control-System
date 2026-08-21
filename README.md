@@ -27,7 +27,7 @@ The system aims to:
 
 The system follows a three-level authentication procedure:
 
-![Block Diagram](Images/BlockDiagram.jpeg)
+![Block Diagram](Images/BlockDiagram.png)
 
 
 ---
